@@ -1,0 +1,64 @@
+$WHITE: #FFF;
+$GREY: #CCC;
+$CUSTOM_GREY:#e3e2e2;
+$DARK_GREY: #333;
+$LIGHT_GREY:  #555;
+$BACKGROUND_GREY: lighten(#EEEDED, 2.5%);
+$LATO: 'Lato', sans-serif;
+body {
+    font-family: $LATO;
+	font-size: 1rem;
+	color: $DARK-GREY;
+	background-color: $BACKGROUND_GREY;
+}
+section{
+    margin-top: 70px;
+}
+input[type=text]{
+    width: 30%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid $GREY;
+    margin-left: 29%;
+}
+li {
+   
+    display: block;
+    width: 30%;
+    margin-left: 27%;
+    margin-bottom: 2em;
+    padding: 10px;
+    padding: 5px 10px;
+    font-size: .9rem;
+    color: $LIGHT_GREY;
+    background-color: $WHITE;
+}
+li:hover{
+    background-color: #e3e2e2;
+    width: 34%;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 29%;
+}
+div{
+    background-color: rgb(246, 241, 241);
+    padding: 10px;
+    margin-left: 27.5%;
+    width: 20%;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 500;
+}
+span{
+    background-color: rgb(246, 241, 241);
+    width: 20%;
+    margin-left: 27.5%;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: small;
+    font-style: italic;
+}
+
